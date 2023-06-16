@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -7,10 +8,10 @@ int main()
     {
         for(j=1;j<=n;j++)
         {
-            if(j==i||j==n+1-i)
-        printf("x");
-        else
-        printf("0");
+            if(i==j)
+            printf("0");
+            if(j<=n-1)
+            printf("x");
         }
         printf("
 ");
